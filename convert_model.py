@@ -80,3 +80,4 @@ print(f"  Keras prediction:  {keras_pred:.6f}")
 print(f"  NumPy prediction:  {numpy_pred:.6f}")
 print(f"  Match: {abs(keras_pred - numpy_pred) < 1e-5}")
 print("\nDone! Files created: model_weights.json, scaler_params.json")
+#
