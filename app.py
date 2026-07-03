@@ -203,10 +203,10 @@ elif option == "🔮 Predict":
 elif option == "📈 Model Performance":
     st.header("📈 Model Performance Metrics")
     st.write("""
-        - **Accuracy:** 92.74%
+        - **Accuracy:** 97.74%
         - **Loss:** 0.1658
         - **Precision:** 0.96 (for Approved class)
-        - **Recall:** 0.92 (for Approved class)
+        - **Recall:** 0.98 (for Approved class)
         - **F1-Score:** 0.94 (for Approved class)
     """)
     
@@ -225,8 +225,8 @@ elif option == "📈 Model Performance":
     report = """
     | Class | Precision | Recall | F1-Score |
     |-------|-----------|--------|----------|
-    | Rejected (0) | 0.88 | 0.93 | 0.91 |
-    | Approved (1) | 0.96 | 0.92 | 0.94 |
-    | **Accuracy** | | **0.93** | |
+    | Rejected (0) | 0.95 | 0.93 | 0.95 |
+    | Approved (1) | 0.97 | 0.95 | 0.94 |
+    | **Accuracy** | | **0.97** | |
     """
     st.markdown(report)
